@@ -1,0 +1,6 @@
+.gpt__navigationbar {
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
