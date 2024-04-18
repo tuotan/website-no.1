@@ -4,3 +4,33 @@
     align-items: center;
     padding: 2rem 6rem;
 }
+
+.gpt__navigationbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gpt__navigationbar-links-logo img {
+    width: 62.56px;
+    height: 16.02px;
+}
+
+.gpt__navigationbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt__navigationbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gpt__navigationbar-links_container p,
+.gpt__navigationbar-sign p,
+.gpt__navigationbar-menu-container p {
+    color: white;
+    font-family: var(--font-family);
+}

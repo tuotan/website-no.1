@@ -10,7 +10,13 @@ const Navigationbar = () => {
         <div className='gpt__navigationbar-links__logo'>
           <img src={logo} alt="logo"></img>
         </div>
-      </div>
+        <div className='gpt__navigationbar-links_container'></div>
+        <p><a href='#home'>Home</a></p>
+        <p><a href='#gpt'>What is GPT?</a></p>
+        <p><a href='#possibility'>Open AI</a></p>
+        <p><a href='#feature'>Case Studies</a></p>
+        <p><a href='#blog'>Library</a></p>
+      </div >
     </div>
   )
 }
