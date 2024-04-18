@@ -7,16 +7,21 @@ const Navigationbar = () => {
   return (
     <div className='gpt__navigationbar'>
       <div className='gpt__navigationbar-links'>
-        <div className='gpt__navigationbar-links__logo'>
+        <div className='gpt__navigationbar-links_logo'>
           <img src={logo} alt="logo"></img>
         </div>
-        <div className='gpt__navigationbar-links_container'></div>
-        <p><a href='#home'>Home</a></p>
-        <p><a href='#gpt'>What is GPT?</a></p>
-        <p><a href='#possibility'>Open AI</a></p>
-        <p><a href='#feature'>Case Studies</a></p>
-        <p><a href='#blog'>Library</a></p>
-      </div >
+        <div className='gpt__navigationbar-links_container'>
+           <p><a href='#home'>Home</a></p>
+           <p><a href='#gpt'>What is GPT?</a></p>
+           <p><a href='#possibility'>Open AI</a></p>
+           <p><a href='#feature'>Case Studies</a></p>
+           <p><a href='#blog'>Library</a></p>
+        </div>
+      </div>
+      <div className='gpt__navigationbar-sign'>
+        <p>Sign in</p>
+        <button type='Button'>Sign up</button>
+      </div>
     </div>
   )
 }
