@@ -36,7 +36,7 @@ const Navigationbar = () => {
         {toggleMenu && (
           <div className='gpt__navigationbar-menu_container scale-up-center'>
             <div className='gpt__navigationbar-menu_container-links'>
-            <Menu/>
+              <Menu/>
             </div>
           </div>
         )}

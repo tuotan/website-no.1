@@ -52,7 +52,7 @@
     background: green;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 500;
+    font-size: 18px;
     line-height: 25px;
     border-radius: 5px;
     border: none;
@@ -62,7 +62,7 @@
 
 .gpt__navigationbar-menu {
     margin-left: 1rem;
-    /* *display: none; */
+    display: none;
     position: relative;
 }
 
@@ -92,16 +92,36 @@
     margin: 1rem;
 }
 
-/* .gpt__navigationbar-menu_container-links-sign {
+.gpt__navigationbar-menu_container-links-sign {
     display: none;
-} */
+}
 
 @media screen and (max-width: 1050px) {
-    .gpt__navigationbar_container {
+    .gpt__navigationbar-links_container {
         display: none;
     }
 
     .gpt__navigationbar-menu {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt__navigationbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt__navigationbar {
+        padding: 2rem;
+    }
+
+    .gpt__navigationbar-sign {
+        display: none;
+    }
+
+    .gpt__navigationbar-menu-container {
+        top: 20px; 
     }
 }
