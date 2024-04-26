@@ -59,3 +59,49 @@
     outline: none;
     cursor: pointer;
 }
+
+.gpt__navigationbar-menu {
+    margin-left: 1rem;
+    /* *display: none; */
+    position: relative;
+}
+
+.gpt__navigationbar-menu svg {
+    cursor: pointer;
+}
+
+.gpt__navigationbar_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+
+.gpt__navigationbar-menu_container p {
+    margin: 1rem;
+}
+
+/* .gpt__navigationbar-menu_container-links-sign {
+    display: none;
+} */
+
+@media screen and (max-width: 1050px) {
+    .gpt__navigationbar_container {
+        display: none;
+    }
+
+    .gpt__navigationbar-menu {
+        display: flex;
+    }
+}
