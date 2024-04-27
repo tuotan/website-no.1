@@ -124,4 +124,8 @@
     .gpt__navigationbar-menu-container {
         top: 20px; 
     }
+
+    .gpt__navigationbar-menu_container-links-sign {
+        display: block;
+    }
 }
