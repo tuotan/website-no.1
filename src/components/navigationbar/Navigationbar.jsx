@@ -21,12 +21,12 @@ const Navigationbar = () => {
           <img src={logo} alt="logo"></img>
         </div>
         <div className='gpt__navigationbar-links_container'>
-          <Menu/>
+          <Menu />
         </div>
       </div>
       <div className='gpt__navigationbar-sign'>
         <p>Sign in</p>
-        <button type='Button'>Sign up</button>
+        <button type='button'>Sign up</button>
       </div>
       <div className='gpt__navigationbar-menu'>
         {toggleMenu 
@@ -36,7 +36,11 @@ const Navigationbar = () => {
         {toggleMenu && (
           <div className='gpt__navigationbar-menu_container scale-up-center'>
             <div className='gpt__navigationbar-menu_container-links'>
-              <Menu/>
+              <Menu />
+            </div>
+            <div className='gpt__navigationbar-menu-container-links-sign'>
+              <p>Sign in</p>
+              <button type='button'>Sign up</button>
             </div>
           </div>
         )}

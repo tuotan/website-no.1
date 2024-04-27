@@ -85,11 +85,11 @@
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 }
 
 .gpt__navigationbar-menu_container p {
-    margin: 1rem;
+    margin: 1rem 0rem;
 }
 
 .gpt__navigationbar-menu_container-links-sign {
