@@ -14,7 +14,7 @@ const Header = () => {
 
       <div className='gpt__header-content__people'>
         <img src={people} alt='People'/>
-        <p>10 people requested access</p>
+        <p>People requested access</p>
       </div>
     </div>
   )
