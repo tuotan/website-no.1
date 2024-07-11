@@ -8,12 +8,12 @@ const Header = () => {
       <div className='gpt__header-content'></div>
       <h1 className='gradient__text'>Hello GPT</h1>
       <div className='gpt__geader-content__input'>
-        <input type='email'placeholder='Your email address'/>
+        <input type='email' placeholder='Your email address' />
         <button type='button'>Get started</button>
       </div>
 
       <div className='gpt__header-content__people'>
-        <img src={1234567891234567891234567891234567891234} alt='Hello'/>
+        <img src={123456789123456789123456789123456789123} alt='Hello' />
         <p>Place</p>
       </div>
     </div>
